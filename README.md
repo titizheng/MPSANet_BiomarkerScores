@@ -5,6 +5,17 @@ This repository contains the code and data to reproduce the main results from th
 
 If you have any quesions, please post it on github issues
 
+### ABSTRACT
+#### Aims
+Deep-learning methods for scoring biomarkers are an active research topic. However, the superior performance of many studies relies on large datasets collected from clinical samples. In addition, there are fewer studies on immunohistochemical marker assessment for dermatological diseases. Accordingly, we developed a method for scoring CD30 based on convolutional neural networks for a few primary cutaneous CD30+lymphoproliferative disorders and used this method to evaluate other biomarkers.
+#### Methods 
+A multipatch spatial attention mechanism and conditional random field algorithm were used to fully fuse tumour tissue characteristics on immunohistochemical slides and alleviate the few sample feature deficits. We trained and tested 28CD30+immunohistochemical whole slide images (WSIs), evaluated them with a performance index, and compared them with the diagnoses of senior dermatologists. Finally, the model’s performance was further demonstrated on the publicly available Yale HER2 cohort.
+#### Results 
+Compared with the diagnoses by senior dermatologists, this method can better locate the tumour area and reduce the misdiagnosis rate. The prediction of CD3 and Ki-67 validated the model’s ability to identify 
+other biomarkers.
+#### Conclusions
+In this study, using a few immunohistochemical WSIs, our model can accurately identify CD30, CD3 and Ki-67 markers. In addition, the model could be applied to additional tumour identification tasks to aid pathologists in diagnosis and benefit clinical evaluation.
+
  ## Prerequisites
 * Python (3.6)
 * Numpy (1.14.3)
