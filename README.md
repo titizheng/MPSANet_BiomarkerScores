@@ -1,5 +1,5 @@
 # Automatic CD30 scoring method for whole slide images of primary cutaneous CD30+lymphoproliferative diseases(2022.07)
-## paper 
+## Paper 
 This repository contains the code and data to reproduce the main results from the paper:
 [Automatic CD30 scoring method for whole slide images of primary cutaneous CD30+lymphoproliferative diseases](https://jcp.bmj.com/content/early/2022/07/21/jcp-2022-208344.abstract)
 
@@ -13,7 +13,7 @@ If you have any quesions, please post it on github issues
 * torchvision 0.9.1+cu111)
 * PIL (5.1.0)
 * scikit-image (0.13.1)
-* [OpenSlide 3.4.1](https://openslide.org/)(Please don't use 3.4.0 as some potential issues found on this version)/[openslide-python (1.1.0)](https://github.com/openslide/openslide-python)
+* OpenSlide 1.1.2
 * matplotlib (2.2.2)
 
 
