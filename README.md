@@ -34,7 +34,7 @@ HER2 cohort dataset was obtained from
 [SamanFarahmand’s project](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=119702524)
 
 As the use of this dataset is subject to critical review by the hospital, if other researchers require 
-this dataset, you can contact the corresponding author of this paper.
+this dataset, you can contact the corresponding author of this paper. cuixy@bmie.neu.edu.cn
 
 ## Model
 ![MPAANet](/images/MPSANet.jpg)
