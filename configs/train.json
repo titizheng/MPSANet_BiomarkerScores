@@ -1,0 +1,18 @@
+{
+ "model": "resnet34",
+ "use_crf": true,
+ "batch_size": 32,
+ "image_size": 768,
+ "patch_size": 256,
+ "crop_size": 224,
+ "lr": 0.001,
+ "momentum": 0.9,
+ "data_path_tumor_train": "/home/omnisky/sata_16tb1/zttdata/TCGA/breastHer2/HER2_status/6patchimage/level0/Her2Pos",
+ "data_path_normal_train": "/home/omnisky/sata_16tb1/zttdata/TCGA/breastHer2/HER2_status/6patchimage/level0/Her2Neg",
+ "data_path_tumor_valid": "/home/omnisky/sata_16tb1/zttdata/TCGA/breastHer2/HER2_status/6patchimage/level0/Test/Her2Pos",
+ "data_path_normal_valid": "/home/omnisky/sata_16tb1/zttdata/TCGA/breastHer2/HER2_status/6patchimage/level0/Test/Her2Neg",
+ "json_path_train": "/home/omnisky/sata_16tb1/zttdata/TCGA/breastHer2/HER2_status/3json/all",
+ "json_path_valid": "/home/omnisky/sata_16tb1/zttdata/TCGA/breastHer2/HER2_status/3json/Test/all",
+ "epoch": 150,
+ "log_every": 100
+}
