@@ -52,3 +52,6 @@ If our paper helps your research, please cite it in your publications:
   publisher={BMJ Publishing Group}
 }
 ```
+
+## Acknowledgments
+Thanks to the Department of Dermatology, The First Affiliated Hospital of China Medical University and NHC Key Laboratory of Immunodermatology (China Medical University) for Providing histopathological services slides.
